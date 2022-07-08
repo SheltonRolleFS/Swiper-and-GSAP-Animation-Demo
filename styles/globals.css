@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  height: 300vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.slider {
+  max-width: 500px;
+}
+
+.slide {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 2rem 4rem;
+  border: 2px solid rgb(228, 228, 228);
+  max-width: 450px;
+  border-radius: 15px;
+}
